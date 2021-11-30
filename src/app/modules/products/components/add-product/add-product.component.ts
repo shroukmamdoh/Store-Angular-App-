@@ -32,6 +32,9 @@ export class AddProductComponent implements OnInit {
       this.fileName = file.name;
       const formData = new FormData();
       formData.append("thumbnail", file);
+      console.log('image', file, formData);
+      
+      this.productForm.value.image = formData
     }
   }
 }
