@@ -1,0 +1,38 @@
+.row {
+    margin-top: 32px;
+    margin-left: 24px;
+    .card {
+        margin-right: 16px;
+        margin-bottom: 16px;
+        .title {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical;
+            height: 50px;
+        }
+        img {
+            width: 100%;
+            height: 255px;
+            padding: 12px;
+            object-fit: contain;
+        }
+        .card-text {
+            height: 225px;
+        }
+        .desc {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; 
+            -webkit-box-orient: vertical;
+            margin: 8px 0;
+        }
+
+    }
+}

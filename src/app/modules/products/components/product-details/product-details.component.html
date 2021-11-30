@@ -1,0 +1,9 @@
+<div class="card w-75">
+    <img [src]="product.image" class="card-img-top" alt="product image" *ngIf="product.image">
+    <div class="card-body" *ngIf="product.title">
+        <div class="title">{{product?.title}}</div>
+        <div class="price">Prie: {{product?.price}} </div>
+        <div class="category">category: {{product?.category}}</div>
+        <div class="desc">{{product?.description}}</div>
+    </div>
+</div>
